@@ -231,3 +231,41 @@ aside section ul li a {
 aside section ul li a:hover {
     text-decoration: underline;
 }
+footer {
+    background: none repeat scroll 0 0 #222222;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+footer div {
+    color: #777777;
+    display: table;
+    margin: 0 auto;
+    padding: 44px 0;
+    width: 940px;
+}
+footer div section {
+    display: table-cell;
+    width: 300px;
+}
+footer div #about, footer div #blogroll {
+    padding-right: 20px;
+}
+footer h3 {
+    color: #FFFFFF;
+}
+footer a {
+    color: #999999;
+}
+footer a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer ul {
+    color: #565656;
+    list-style: square outside none;
+    margin: 0 0 0 40px;
+}
+footer ul li a {
+    display: block;
+}
