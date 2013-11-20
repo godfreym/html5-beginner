@@ -78,7 +78,9 @@
         padding: 44px;  
         background: #467612 url("intro_background.png") repeat-x;  
         background-size: 100%;  
-        border-radius: 22px; 
+        border-radius: 22px;
+        background: #467612 url("intro_background.png") top left (287px 100%) repeat-x,  
+            url("intro_flower.png") top rightright (653px 100%) no-repeat;  		
 		
 	/* Background-size not implemented yet */  
     -webkit-background-size: 100%;  
